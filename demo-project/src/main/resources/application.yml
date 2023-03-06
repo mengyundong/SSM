@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  jetty:
+    accesslog:
+      append: true
+      enabled: true
