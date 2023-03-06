@@ -15,6 +15,7 @@ public class TwoIntercepter implements HandlerInterceptor {
         return HandlerInterceptor.super.preHandle(request,response,handler);
     }
 
+    
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
 
